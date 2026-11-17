@@ -18,22 +18,22 @@ export async function generateMetadata(): Promise<Metadata> {
   const host = requestHeaders.get("x-forwarded-host") ?? requestHeaders.get("host") ?? "localhost:3000";
   const protocol = requestHeaders.get("x-forwarded-proto") ?? (host.startsWith("localhost") ? "http" : "https");
   const origin = `${protocol}://${host}`;
-  const description = "A five-minute newsletter that makes sense of AI, with useful ideas you can put to work today.";
+  const description = "The AI Proof Sheet is a five-minute U.S. and World AI news briefing from James Talks AI, with every source attached.";
 
   return {
     metadataBase: new URL(origin),
-    title: "Plainly AI — AI news for curious humans",
+    title: "The AI Proof Sheet by James Talks AI",
     description,
     icons: { icon: "/favicon.svg", shortcut: "/favicon.svg" },
     openGraph: {
-      title: "Plainly AI — Feel smarter about AI",
+      title: "The AI Proof Sheet by James Talks AI",
       description,
       type: "website",
-      images: [{ url: `${origin}/og.png`, width: 1733, height: 907, alt: "Plainly AI newsletter" }],
+      images: [{ url: `${origin}/og.png`, width: 1733, height: 907, alt: "The AI Proof Sheet by James Talks AI" }],
     },
     twitter: {
       card: "summary_large_image",
-      title: "Plainly AI — Feel smarter about AI",
+      title: "The AI Proof Sheet by James Talks AI",
       description,
       images: [`${origin}/og.png`],
     },

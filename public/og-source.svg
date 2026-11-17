@@ -1,0 +1,16 @@
+<svg width="1733" height="907" viewBox="0 0 1733 907" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1733" height="907" fill="#F6F1E8"/>
+  <circle cx="1475" cy="154" r="330" stroke="#9DD8CB" stroke-width="3"/>
+  <circle cx="1475" cy="154" r="240" stroke="#17332D" stroke-width="2" stroke-dasharray="12 16"/>
+  <rect x="110" y="96" width="78" height="78" rx="24" fill="#17332D"/>
+  <path d="M159 116V146C159 160 151 168 138 168C127 168 119 163 116 153L128 148C129 153 132 156 138 156C143 156 146 152 146 146V116H159Z" fill="#F26752"/>
+  <text x="211" y="151" fill="#17332D" font-family="Arial, Helvetica, sans-serif" font-size="42" font-weight="800">JAMES TALKS AI</text>
+  <text x="110" y="320" fill="#F26752" font-family="Arial, Helvetica, sans-serif" font-size="25" font-weight="800" letter-spacing="5">THE DAILY NEWSLETTER</text>
+  <text x="110" y="455" fill="#17332D" font-family="Georgia, 'Times New Roman', serif" font-size="104" font-weight="600">The AI Proof Sheet</text>
+  <text x="110" y="560" fill="#4E625C" font-family="Arial, Helvetica, sans-serif" font-size="42">Know what’s real in AI—not just what’s loud.</text>
+  <rect x="110" y="665" width="198" height="66" rx="33" fill="#17332D"/>
+  <text x="167" y="709" fill="#FFFFFF" font-family="Arial, Helvetica, sans-serif" font-size="25" font-weight="800">U.S.</text>
+  <rect x="328" y="665" width="246" height="66" rx="33" fill="#F26752"/>
+  <text x="374" y="709" fill="#FFFFFF" font-family="Arial, Helvetica, sans-serif" font-size="25" font-weight="800">WORLD</text>
+  <text x="110" y="805" fill="#17332D" font-family="Arial, Helvetica, sans-serif" font-size="26" font-weight="700">SOURCED • INDEPENDENT • FIVE MINUTES</text>
+</svg>

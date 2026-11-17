@@ -102,25 +102,25 @@ export default function Home() {
   return (
     <main>
       <nav className="nav shell" aria-label="Main navigation">
-        <a className="brand" href="#top" aria-label="Plainly AI home"><span className="brand-mark" aria-hidden="true">P</span><span>Plainly AI</span></a>
+        <a className="brand" href="#top" aria-label="James Talks AI home"><span className="brand-mark" aria-hidden="true">J</span><span>James Talks AI</span></a>
         <div className="nav-links"><a href="#daily">Today’s briefing</a><a href="#inside">What’s inside</a><a href="#about">Our promise</a></div>
         <a className="nav-cta" href="#subscribe">Subscribe</a>
       </nav>
 
       <section className="hero shell" id="top">
         <div className="hero-copy">
-          <div className="eyebrow"><span /> AI news for curious humans</div>
-          <h1>Feel smarter about AI.<br /><em>Not overwhelmed.</em></h1>
-          <p className="hero-subhead">A five-minute daily newsletter that turns trusted AI reporting into a clear U.S. and World briefing.</p>
+          <div className="eyebrow"><span /> THE AI PROOF SHEET</div>
+          <h1>Know what’s real in AI.<br /><em>Not just what’s loud.</em></h1>
+          <p className="hero-subhead">The AI Proof Sheet is a five-minute daily newsletter from James Talks AI, turning trusted reporting into a clear U.S. and World briefing.</p>
           <SignupForm />
           <p className="form-note">Fresh every morning · No spam · Unsubscribe anytime</p>
-          <div className="editor-note"><span aria-hidden="true">P</span><div><strong>Independent newsletter</strong><br />Curated and written by Plainly AI</div></div>
+          <div className="editor-note"><span aria-hidden="true">J</span><div><strong>Independent newsletter</strong><br />Curated and written by James Talks AI</div></div>
         </div>
 
-        <div className="hero-visual" aria-label="Preview of the Plainly AI newsletter">
+        <div className="hero-visual" aria-label="Preview of The AI Proof Sheet newsletter">
           <div className="orbit orbit-one" /><div className="orbit orbit-two" />
           <article className="newsletter-card">
-            <header className="newsletter-header"><div className="mini-brand"><span>P</span> Plainly AI</div><span className="issue-tag">Issue 042</span></header>
+            <header className="newsletter-header"><div className="mini-brand"><span>J</span> The AI Proof Sheet</div><span className="issue-tag">Issue 042</span></header>
             <div className="newsletter-content">
               <p className="newsletter-date">Today, 8:02 AM</p>
               <h2>Today in AI, at home and around the world.</h2>
@@ -141,7 +141,7 @@ export default function Home() {
         <div className="shell">
           <div className="daily-heading">
             <div><p className="kicker">THE DAILY BRIEFING</p><h2>Two lenses.<br /><em>One clear picture.</em></h2></div>
-            <div className="daily-meta"><span>Updated {issueDate}</span><p>Plainly AI is independently written and edited. The Rundown AI, original documents, and reputable web reporting are source material—and every story keeps its source attached.</p></div>
+            <div className="daily-meta"><span>Updated {issueDate}</span><p>The AI Proof Sheet is independently written and edited by James Talks AI. The Rundown AI, original documents, and reputable web reporting are source material—and every story keeps its source attached.</p></div>
           </div>
           <div className="region-grid">
             {[
@@ -166,13 +166,13 @@ export default function Home() {
               </div>
             ))}
           </div>
-          <div className="source-standard"><span aria-hidden="true">✓</span><p><strong>Our source standard:</strong> Plainly AI selects and explains the news. Newsletter emails help us spot stories; original documents and reputable reporting help us verify them. No unattributed summaries.</p></div>
+          <div className="source-standard"><span aria-hidden="true">✓</span><p><strong>Our source standard:</strong> James Talks AI selects and explains the news. Newsletter emails help us spot stories; original documents and reputable reporting help us verify them. No unattributed summaries.</p></div>
         </div>
       </section>
 
       <section className="features shell" id="inside">
         <div className="section-heading">
-          <div><p className="kicker">WHY PLAINLY AI</p><h2>All signal.<br />No <em>silicon valley.</em></h2></div>
+          <div><p className="kicker">WHY THE AI PROOF SHEET</p><h2>All signal.<br />No <em>silicon valley.</em></h2></div>
           <p>We do the scrolling, testing, and translating so you can stay informed without making AI your full-time job.</p>
         </div>
         <div className="feature-grid">
@@ -189,9 +189,9 @@ export default function Home() {
             <ul>{topics.map((topic, index) => <li key={topic}><span>0{index + 1}</span>{topic}<span aria-hidden="true">→</span></li>)}</ul>
           </div>
           <aside className="editorial-card">
-            <div className="quote-mark">P</div>
-            <p>We read widely, verify carefully, and write every edition in Plainly AI’s own voice—so the result is useful, original, and yours.</p>
-            <footer><div className="quote-avatar">PA</div><div><strong>The Plainly AI promise</strong><br /><span>Independent newsletter · sources always linked</span></div></footer>
+            <div className="quote-mark">J</div>
+            <p>We read widely, verify carefully, and write every edition in James Talks AI’s own voice—so the result is useful, original, and yours.</p>
+            <footer><div className="quote-avatar">JT</div><div><strong>The AI Proof Sheet promise</strong><br /><span>Independent newsletter · sources always linked</span></div></footer>
           </aside>
         </div>
       </section>
@@ -200,7 +200,7 @@ export default function Home() {
         <div className="shell cta-inner"><p className="kicker">START TOMORROW MORNING</p><h2>AI is moving fast.<br /><em>You don’t have to.</em></h2><p>Get the calm, clear daily guide to what’s next.</p><SignupForm dark /><span className="cta-note">Free forever. Independently written for humans.</span></div>
       </section>
 
-      <footer className="footer shell"><div className="brand"><span className="brand-mark">P</span><span>Plainly AI</span></div><p>© 2026 Plainly AI. Less hype, more helpful.</p><div><a href="#top">Privacy</a><a href="#top">Archive</a><a href="#top">Back to top ↑</a></div></footer>
+      <footer className="footer shell"><div className="brand"><span className="brand-mark">J</span><span>James Talks AI</span></div><p>© 2026 James Talks AI. The AI Proof Sheet.</p><div><a href="#top">Privacy</a><a href="#top">Archive</a><a href="#top">Back to top ↑</a></div></footer>
     </main>
   );
 }

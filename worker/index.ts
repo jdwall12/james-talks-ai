@@ -31,7 +31,7 @@ type BriefingArticleInput = {
 
 const briefingTool = {
   name: "update_daily_briefing",
-  description: "Replace one day of the Plainly AI briefing with sourced U.S. and World AI news.",
+  description: "Replace one day of The AI Proof Sheet with sourced U.S. and World AI news.",
   inputSchema: {
     type: "object",
     additionalProperties: false,
@@ -63,7 +63,7 @@ const briefingTool = {
 
 const readTool = {
   name: "get_daily_briefing",
-  description: "Read the latest saved Plainly AI daily briefing and its sources.",
+  description: "Read the latest saved AI Proof Sheet briefing and its sources.",
   inputSchema: { type: "object", additionalProperties: false, properties: {} },
 };
 
